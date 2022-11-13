@@ -1,0 +1,158 @@
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+html{
+    scroll-behavior: smooth;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+  }
+
+/* About Section */
+#about{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    background-color: grey;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+/* Services Section */
+
+#services{
+    display: flex;
+    color: white;
+    background-color: rgb(104 103, 103);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: white white;
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: violet;
+    border: none;
+    box-shadow: 0 0 20px rgb(0,238,0);
+}
+
+.holdingcontainer{
+    width: 100%;
+    color: white;
+    background: rgb(96, 95, 95);
+    padding: 40px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.internalcontainerL{
+    flex: 1;
+    background: rgb(140, 138, 138);
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.internalcontainerM{
+    flex: 1;
+    background: rgb(108, 106, 106);
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.internalcontainerR{
+    flex: 1;
+    color: white;
+    background: rgb(57, 56, 56);
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media  screen and(max-width:768px){
+}
+
+
+
+
+
+
+
+
